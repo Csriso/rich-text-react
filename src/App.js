@@ -41,7 +41,9 @@ function App() {
 					}}
 				/>
 
-				<div className="output pt-24 w-8/12 pb-24">{value}</div>
+				<div className="pt-24 w-8/12 pb-24 break-all whitespace-pre-wrap">
+					{value}
+				</div>
 			</div>
 		</div>
 	);
